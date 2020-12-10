@@ -26,16 +26,17 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <TextView
+    <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:background="@color/quickreturn_background"
+        app:itemBackground="@drawable/background_item_tab"
         android:gravity="center"
-        android:padding="16dp"
-        android:text="QuickReturn Footer"
+        app:menu="@menu/bottom_navigation"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="@android:color/white"
+        app:itemTextColor="@drawable/bottom_nav_text_color_selector"
+        app:itemIconTint="@drawable/bottom_nav_icon_color_selector"
         app:layout_behavior="com.robert.quickreturnbehavior.QuickReturnFooterBehavior" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

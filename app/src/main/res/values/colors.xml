@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="quickreturn_background">#689F38</color>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="colorTextInActive">#ffffff</color>
+    <color name="colorIconInActive">#cccccc</color>
+    <color name="colorIconStateChecked">#DFFFFFFF</color>
+    <color name="colorIconStateEnabled">#DFFFFFFF</color>
 </resources>
